@@ -4,3 +4,52 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.bg-dark {
+  background: #1f2937;
+}
+
+.bg-quote-seciton {
+  background: #e5e7eb;
+}
+
+.btn,
+.call-to-action {
+  background: #3882f6;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+header a,
+.hero .secondary-text {
+  color: #e5e7eb;
+}
+
+.hero .main-text {
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero .secondary-text {
+  font-size: 18px;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: 900px;
+  color: #1f2937;
+}
