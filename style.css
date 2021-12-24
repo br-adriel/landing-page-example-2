@@ -27,6 +27,34 @@ ul {
   color: #fff;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 8px;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+}
+
 header .logo {
   font-size: 24px;
   color: #f9faf8;
@@ -36,6 +64,10 @@ header .logo {
 header a,
 .hero .secondary-text {
   color: #e5e7eb;
+}
+
+header a:hover {
+  color: #fff;
 }
 
 .hero .main-text {
