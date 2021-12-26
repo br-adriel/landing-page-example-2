@@ -17,7 +17,7 @@ ul {
   background: #1f2937;
 }
 
-.bg-quote-seciton {
+.bg-quote-section {
   background: #e5e7eb;
 }
 
@@ -141,4 +141,23 @@ header a:hover {
   padding: 24px;
   border-radius: 12px;
   border: 3px solid #3882f6;
+}
+
+.quote-section {
+  padding: 120px 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+blockquote {
+  font-size: 32px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.quote-section span {
+  font-weight: bold;
+  font-size: 24px;
 }
