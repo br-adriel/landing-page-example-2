@@ -1,5 +1,5 @@
 # Landing Page 🖥️
-Uma landing page desenvolvida com o propósito de praticar minhas habilidades com Flexbox.
+Uma landing page desenvolvida com o propósito de praticar minhas habilidades CSS com Flexbox.
 
 Essa página foi constuída durante um curso online do site [The Odin Project](https://www.theodinproject.com).
 
