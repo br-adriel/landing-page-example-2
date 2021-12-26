@@ -22,7 +22,7 @@ ul {
 }
 
 .btn,
-.call-to-action {
+.call-to-action > div {
   background: #3882f6;
   color: #fff;
 }
@@ -160,4 +160,32 @@ blockquote {
 .quote-section span {
   font-weight: bold;
   font-size: 24px;
+}
+
+.call-to-action {
+  padding: 90px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action > div {
+  display: flex;
+  padding: 40px 60px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+.call-to-action .btn {
+  border: 2px solid #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: #fff;
 }
